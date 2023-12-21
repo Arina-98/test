@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/bts-922.jpg");
+    background-size: 1920px 970px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+a{
+ color: #fff;
+ text-decoration: underline;   
+ text-underline-position: under;
+ text-decoration-thickness: 1px;
+ font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: #fff;
+   
+}
+.header_section{
+    display: flex;
+    align-items: center;
+}
+.header_item{
+    flex-direction: row ;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px; 
+}
+.buttons:hover{
+    background: #180091;
+}
+
+.buttons{
+    background-color: rgb(99,43,228);
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    border: 0px; 
+}
+.courser-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;   
+
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 45px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 190px;
+    margin-bottom: 10px;
+    }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    }
+canvas {
+    position: absolute;
+    margin-top: 7%;
+    width: 1450px;
+    height: 430px;
+    }

@@ -1,0 +1,88 @@
+body{
+    background-color: black;  
+}
+a{
+    color: #fff;
+    text-decoration: underline;   
+    text-underline-position: under;
+    text-decoration-thickness: 1px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 24px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: #fff;
+}
+.header_section{
+    display: flex;
+
+}
+.header_item{
+    flex-direction: row ;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px; 
+} 
+
+h1{
+    display: flex;
+    height: 70px;
+    flex-direction: column;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center; 
+}
+h2{
+    display: flex;
+    height: 500px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-align: left; 
+
+}
+.btn a{
+    text-decoration: none;
+} 
+.btn{
+    background-color: rgb(99,43,228);
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    border: 0px; 
+}
+.btn:hover{
+    background: #180091;
+}
+.courser-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imagin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+img{
+    margin-bottom: 70px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 45px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    }
+
+   
